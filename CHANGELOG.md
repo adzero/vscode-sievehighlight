@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated highlight syntax rules to support empty double quoted strings.
 
+### Added
+
+- Double quotes support as autoclosing pair.
+- Double quotes support as surrounding pair.
+
 ## 1.0.0 - 04/04/2020
 
 Initial release
