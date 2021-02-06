@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Fix extension name in package manifest to publish updates of the first published version.
+
+## 1.0.1
+
+### Fixed
+
 - Updated highlight syntax rules to support empty double quoted strings.
 
 ### Added
