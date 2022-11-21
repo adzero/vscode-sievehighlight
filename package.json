@@ -1,0 +1,31 @@
+{
+    "name": "vscode-sievehighlight",
+    "displayName": "Sieve syntax highlight support",
+    "description": "Sieve language syntax highlight support for Visual Studio Code.",
+    "icon": "images/icon.png",
+    "version": "1.0.6",
+    "publisher": "adzero",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adzero/vscode-sievehighlight.git"
+      },
+      "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sieve",
+            "aliases": ["Sieve", "sieve"],
+            "extensions": [".sieve"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sieve",
+            "scopeName": "source.sieve",
+            "path": "./syntaxes/Sieve.tmLanguage"
+        }]
+    }
+}
