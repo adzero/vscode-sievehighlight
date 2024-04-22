@@ -8,8 +8,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/adzero/vscode-sievehighlight.git"
-      },
-      "engines": {
+    },
+    "engines": {
         "vscode": "^1.43.0"
     },
     "categories": [
