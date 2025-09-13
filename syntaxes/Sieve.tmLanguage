@@ -111,19 +111,6 @@
 			<string>\*/</string>
 			<key>name</key>
 			<string>comment.block.sieve</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
-				</dict>
-				<dict>
-					<key>match</key>
-					<string>.*</string>
-					<key>name</key>
-					<string>comment.block.content.sieve</string>
-				</dict>
-			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
